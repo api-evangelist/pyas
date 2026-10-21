@@ -1,0 +1,31 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.pyas.io/fundamentals/getting-set-up/create-webhooks.md
+sources:
+- https://docs.pyas.io/fundamentals/getting-set-up/create-webhooks.md
+- https://docs.pyas.io/rest-api-reference/google-calendar/events.md
+- https://docs.pyas.io/rest-api-reference/microsoft-outlook/events.md
+description: Webhooks for account, calendar, and event changes.
+events:
+- event: account.connected
+  description: Sent when a user connects a new account in Pyas.
+- event: account.inactive
+  description: Sent when a connected account becomes inactive.
+- event: account.deleted
+  description: Sent when a connected account is deleted.
+- event: calendars.created
+  description: Sent when a new calendar is created (Google only).
+- event: calendars.deleted
+  description: Sent when a calendar is deleted (Google only).
+- event: events.created
+  description: Sent when a calendar event is created (Google and Microsoft).
+- event: events.updated
+  description: Sent when a calendar event is updated (Google and Microsoft).
+- event: events.deleted
+  description: Sent when a calendar event is deleted (Google and Microsoft).
+delivery:
+  content_type: application/json
+note: Each webhook request includes the headers 'x-pyas-account-id', 'x-pyas-webhook-event', and 'x-provider' as documented. No signature header,
+  authentication method, or retry policy is described on the pages.
+docs: https://docs.pyas.io/fundamentals/getting-set-up/create-webhooks.md

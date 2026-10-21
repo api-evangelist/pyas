@@ -1,0 +1,34 @@
+# Pyas Docs
+
+## Pyas Docs
+
+- [Getting Started With Pyas](https://docs.pyas.io/getting-started-with-pyas.md): Here, you will find everything you need to get started with Pyas and building out calendar integrations using our API.
+- [Pyas Apps](https://docs.pyas.io/fundamentals/pyas-apps.md): What are Pyas Apps?
+- [Provider Apps](https://docs.pyas.io/fundamentals/provider-apps.md): What are Provider Apps?
+- [Pyas Auth vs Native Auth](https://docs.pyas.io/fundamentals/pyas-auth-vs-native-auth.md): What are the authentication options?
+- [Getting set up](https://docs.pyas.io/fundamentals/getting-set-up.md): These 6 steps will help you get up and running with Pyas.
+- [Inviting Team Members](https://docs.pyas.io/fundamentals/getting-set-up/inviting-team-members.md): Invite your team.
+- [Creating an App](https://docs.pyas.io/fundamentals/getting-set-up/creating-an-app.md): You must create an app in order to use Pyas and connect accounts.
+- [Setup Authentication](https://docs.pyas.io/fundamentals/getting-set-up/setup-authentication.md): There are 2 Authentication options.
+- [Pyas Auth](https://docs.pyas.io/fundamentals/getting-set-up/setup-authentication/pyas-auth.md): Configure Pyas Authentication
+- [Native Auth](https://docs.pyas.io/fundamentals/getting-set-up/setup-authentication/native-auth.md): Configure Native Authentication
+- [Create a Google App](https://docs.pyas.io/fundamentals/getting-set-up/setup-authentication/native-auth/create-a-google-app.md): Below are the steps for creating a Google App.
+- [Create an Azure App](https://docs.pyas.io/fundamentals/getting-set-up/setup-authentication/native-auth/create-an-azure-app.md): Below are the steps for creating an Azure App.
+- [Create a Zoom App](https://docs.pyas.io/fundamentals/getting-set-up/setup-authentication/native-auth/create-a-zoom-app.md): Below are the steps for creating a Zoom app.
+- [Connect an Account](https://docs.pyas.io/fundamentals/getting-set-up/setup-authentication/connect-an-account.md): Connect a Google, Microsoft or Zoom Account
+- [Create Webhooks](https://docs.pyas.io/fundamentals/getting-set-up/create-webhooks.md): Get notified when there are changes/updates to accounts, calendars, and events.
+- [Connected Accounts](https://docs.pyas.io/fundamentals/connected-accounts.md): What are connected accounts?
+- [Zoom](https://docs.pyas.io/fundamentals/connected-accounts/zoom.md): Connect and Test the Zoom Integrations
+- [Introduction](https://docs.pyas.io/rest-api-reference/introduction.md): Pyas API Reference
+- [API Authentication](https://docs.pyas.io/rest-api-reference/api-authentication.md): Our API endpoints are protected and require API Keys.
+- [Google Calendar](https://docs.pyas.io/rest-api-reference/google-calendar.md): Pyas Google Calendar Integration
+- [Auth](https://docs.pyas.io/rest-api-reference/google-calendar/auth.md): Connect a Google Account
+- [Calendars](https://docs.pyas.io/rest-api-reference/google-calendar/calendars.md): Google Calendars
+- [Events](https://docs.pyas.io/rest-api-reference/google-calendar/events.md): Google Calendar Events
+- [Microsoft Outlook](https://docs.pyas.io/rest-api-reference/microsoft-outlook.md): Pyas Microsoft Outlook Integration
+- [Auth](https://docs.pyas.io/rest-api-reference/microsoft-outlook/auth.md): Connect an Outlook Account
+- [Calendars](https://docs.pyas.io/rest-api-reference/microsoft-outlook/calendars.md): Microsoft Outlook Calendars
+- [Events](https://docs.pyas.io/rest-api-reference/microsoft-outlook/events.md): Microsoft Outlook Calendar Events
+- [Zoom](https://docs.pyas.io/rest-api-reference/zoom.md): Pyas Zoom Integration
+- [Auth](https://docs.pyas.io/rest-api-reference/zoom/auth.md): Connect a Zoom Account
+- [Meetings](https://docs.pyas.io/rest-api-reference/zoom/meetings.md): Zoom Meetings

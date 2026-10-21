@@ -1,0 +1,27 @@
+generated: '2026-10-21'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://pyas.io/pricing
+sources:
+- https://pyas.io/pricing
+name: BrutForce Technologies pricing
+audience: developer-api
+pricing_basis: per-seat
+plans:
+- name: Free
+  price_text: FREE
+  description: 3 Connected Accounts, 1 App, 1 Webhook, 5,000 Monthly API calls, 7-Day Logs
+- name: Starter
+  price_text: $15 /month
+  price: 15
+  description: 10 Connected Accounts, 2 Apps, 2 Webhooks, 50,000 Monthly API calls, 1 Team Member, 7-Day Logs
+- name: Growth
+  price_text: $45 /month
+  price: 45
+  description: 60 Connected Accounts, 3 Apps, 5 Webhooks, Unlimited API calls, 5 Team Members, 14-Day Logs, Priority Support
+- name: Scale
+  price_text: $75 /month
+  price: 75
+  description: 200 Connected Accounts, Unlimited Apps, Unlimited Webhooks, Unlimited API calls, Unlimited Team Members, 30-Day Logs, Priority
+    Support
+docs: https://pyas.io/pricing

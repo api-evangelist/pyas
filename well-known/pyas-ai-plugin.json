@@ -1,0 +1,25 @@
+{
+  "schema_version":"v1",
+  "name_for_human":"Pyas Calendar Integration API",
+  "name_for_model":"pyas",
+  "description_for_human":"Create & manage calendar events via Pyas (Google, Outlook, Zoom, etc.)",
+  "description_for_model":"Plugin for interacting with Pyas calendar integrations API. Auth via x-api-key header.",
+  "auth":{
+    "type":"service_http",
+    "authorization_type":"api_key",
+    "api_key":{
+      "in":"header",
+      "name":"x-api-key"
+    }
+  },
+  "api":{
+    "type":"openapi",
+    "url":"https://pyas.io/openapi.json",
+    "is_user_authenticated":true
+  },
+  "logo_url":"https://pyas.io/static/pyas-logo.svg",
+  "contact_email":"support@pyas.io",
+  "legal_info_url":"https://pyas.io/terms",
+  "documentation_url": "https://docs.pyas.io/",
+  "privacy_policy_url": "https://pyas.io/privacy"
+}

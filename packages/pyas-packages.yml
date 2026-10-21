@@ -1,0 +1,39 @@
+generated: '2026-10-21'
+method: searched
+source: https://docs.pyas.io/
+packages:
+- name: '@pyas/connect'
+  registry: npm
+  url: https://www.npmjs.com/package/@pyas/connect
+  version: 1.0.11
+  published: '2025-06-18'
+  official: true
+  ownership_audit: metadata names pyas.io
+- name: '@pyas/connect-vue'
+  registry: npm
+  url: https://www.npmjs.com/package/@pyas/connect-vue
+  version: 1.0.11
+  published: '2025-06-18'
+  official: true
+  ownership_audit: metadata names pyas.io
+- name: '@pyas/connect-react'
+  registry: npm
+  url: https://www.npmjs.com/package/@pyas/connect-react
+  version: 1.0.11
+  published: '2025-06-18'
+  official: true
+  ownership_audit: metadata names pyas.io
+- name: '@pyas/connect-angular'
+  registry: npm
+  url: https://www.npmjs.com/package/@pyas/connect-angular
+  version: 1.0.11
+  published: '2025-06-18'
+  official: true
+  ownership_audit: metadata names pyas.io
+- name: pyas
+  registry: pypi
+  url: https://pypi.org/project/pyas/
+  version: 1.2.4
+  published: '2026-10-14'
+  official: false
+  ownership_audit: 'registry metadata names neither the provider''s domain nor its GitHub org: official downgraded (harvest-packages.py --audit)'
